@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Port<span>folio</span></div>
+                <div class="menu-toggle" id="menuToggle">☰</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Top Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1><span>Beth Njoki Njoroge</span></h1>
+                <p>A passionate Computer Science student focused on creating innovative solutions and meaningful experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="portfolioimage.jpg" alt="Profile Photo">
+                </div>
+                <div class="about-text">
+                    <h2>Who I Am</h2>
+                    <p>Hello! I'm Beth Njoki Njoroge, a passionate Computer Science student with 2 years of experience specializing in Software Engineering. I strive to create innovative solutions that are not only visually appealing but also functional and user-friendly.</p>
+                    <p>My journey in Software Engineering started when I partcipated in Blockathons in high school and chose a career path in Computer Science. Since then, I've worked with professional tutors and mentors to develop projects such as tele-medicine applications.</p>
+                    <p>When I'm not coding, you can find me advocating for climate change, doing humanitarian work in my society and public-speaking.</p>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Cloud Computing</span>
+                            <span class="skill-tag">Git</span>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/600/400" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Name</h3>
+                        <p>A brief description of the project. Explain what it does, the problem it solves, and any notable features.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">View Project</a>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="telehealth.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mama Salama</h3>
+                        <p>Mama Salama is a USSD tele-health application to offer pregnant women in rural areas to access timely health care and relevant reminders such as due-dates in case of any emerge
+                            cy medical situations. The pregnant women can also send alerts to the medical doctors in their areas whenever they need to.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">View Project</a>
+                          
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch With Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                    <div class="contact-links">
+                        <div class="contact-link">
+                            <i>📧</i>
+                            <span>youremail@example.com</span>
+                        </div>
+                        <div class="contact-link">
+                            <i>📱</i>
+                            <span>+1 (123) 456-7890</span>
+                        </div>
+                        <div class="contact-link">
+                            <i>📍</i>
+                            <span>Your Location</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" target="_blank">B</a>
+                    <a href="#" class="social-link" target="_blank">E</a>
+                    <a href="#" class="social-link" target="_blank">T</a>
+                    <a href="#" class="social-link" target="_blank">H</a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Beth Njoki. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">↑</div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
