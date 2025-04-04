@@ -497,3 +497,24 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* CSS for styling the social links */
+
+
+.social-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .icon {
+    display: inline-flex;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .social-link:hover {
+    color: #6c63ff;
+  }
