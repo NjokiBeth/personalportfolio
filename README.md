@@ -26,6 +26,6 @@ I'm always open to new opportunities, collaborations, and conversations about cr
 - 🌐 Github: https://github.com/NjokiBeth 
 
 
-> "A quote that inspires my work is: How far would you dream if you knew you wouldn't fail" <
+> "A quote that inspires my work is: How far would you dream if you knew you wouldn't fail?" 
 
 ⭐ Thank you for visiting my portfolio! I look forward to the possibility of working together. ⭐
