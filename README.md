@@ -7,6 +7,7 @@ I'm a passionate Computer Science student/ Software Engineer dedicated to bringi
 ## ✨ What You'll Find Here
 
 This portfolio showcases my journey, skills, and projects that reflects my expertise and creative approach. The project represents a unique challenge and solution, demonstrating my growth and versatility.
+The portfolio has been deployed on Vercel: https://personalportfolio-rho-one.vercel.app/
 
 ## 🛠️ Skills & Expertise
 PHP, Python, HTML, CSS, JavaScript, Responsive Design, Cloud Computing, Git.
